@@ -37,7 +37,7 @@ function PageLayout() {
                 defaultOpenKeys={['sub1']}
                 style={{ height: '100%', borderRight: 0 }}
               >
-                <SubMenu key="sub1" icon={<UserOutlined />} title="subnav 1">
+                <SubMenu key="sub1" icon={<UserOutlined />} title="React Libraries">
                   <Menu.Item key="1">
                   <Link to="/rechart">
                 rechart
