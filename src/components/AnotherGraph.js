@@ -6,7 +6,7 @@ import dataset2 from '../data/MOCK_NUMS2.json'
 import dataset3 from '../data/MOCK_NUMS3.json'
 
 function AnotherGraph() {
-    const ITEMS = ['Set 1', 'Set 2', 'Set 3']
+    const ITEMS = ['aa', 'bb']
     return (
         <div>
             <XYPlot width={800} height={500} getX={d => d.id} getY={d => d.bb}>
