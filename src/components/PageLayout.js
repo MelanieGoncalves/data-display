@@ -7,8 +7,8 @@ import { UserOutlined, LaptopOutlined, NotificationOutlined } from '@ant-design/
 import Home from './Home'
 import Graph from './Graph';
 import AnotherGraph from './AnotherGraph';
-import VictoryGraph from './VictoryGraph';
 import NivoGraph from './NivoGraph';
+import ChartJS from './ChartJS';
 
 function PageLayout() {
 
@@ -47,6 +47,11 @@ function PageLayout() {
                   <Link to="/reactvis">
                   react-vis
                 </Link>
+                  </Menu.Item>
+                  <Menu.Item key="3">
+                    <Link to="/chartjs">
+                    chart.js
+                    </Link>
                   </Menu.Item>
                   <Menu.Item key="4">
                     <Link to="/nivo">
@@ -92,6 +97,9 @@ function PageLayout() {
                   </Route>
                   <Route path="/reactvis" >
                     <AnotherGraph />
+                  </Route>
+                  <Route path="/chartjs">
+                    <ChartJS />
                   </Route>
                   <Route path="/nivo">
                     <NivoGraph />
