@@ -14,7 +14,7 @@ function AnotherGraph() {
                 <VerticalGridLines />
                 <LineMarkSeries data={dataset1}/>
                 <LineMarkSeries data={dataset2} />
-                <LineMarkSeries data={dataset3} />
+                {/* <LineMarkSeries data={dataset3} /> */}
                 <XAxis/>
                 <YAxis />
                

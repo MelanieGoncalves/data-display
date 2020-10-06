@@ -65,7 +65,7 @@ function Graph() {
                 <Legend onMouseEnter={handleMouseEnter} onMouseLeave={HandleMouseLeave}/>
                 <Line type="monotone" dataKey="aa" strokeOpacity={opacity.aa} stroke="#8884d8" />
                 <Line type="monotone" dataKey="bb" strokeOpacity={opacity.bb} stroke="#111111" />
-                <Line type="monotone" dataKey="cc" strokeOpacity={opacity.cc} stroke="#777777" />
+                {/* <Line type="monotone" dataKey="cc" strokeOpacity={opacity.cc} stroke="#777777" /> */}
             </LineChart>
         </div>
     )
